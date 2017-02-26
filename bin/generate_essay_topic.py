@@ -4,7 +4,7 @@ import os
 import sys
 
 # Append prompt_generator path. Alternative is to write a setup.py and install prompt_generator
-sys.path.append(os.path.join(os.pardir, 'src'))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, 'src'))
 
 import prompt_generator
 
